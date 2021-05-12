@@ -1,0 +1,64 @@
+body{
+    background-image:url("https://images5.alphacoders.com/466/thumb-1920-466168.jpg") ;
+    background-size: 1640px 950px;
+  background-repeat:no-repeat;
+}
+.rar{
+    padding: 20px 547px;
+    margin: 20px 0;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 1.25rem;
+    width: 300px;
+}
+ 
+ #menubar{
+  width: 400px;
+  height: 70px;
+  padding: 0;
+  background: #010a35 url(menu.png) repeat-x;
+} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: #010a35 url(menu_select.png) repeat-x;}
+
+
+
+.logo{
+   padding: auto;
+   size: 300px 300px;
+}
+
+h1{
+  text-align: center;
+
+}
+
+.center{
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
